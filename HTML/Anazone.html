@@ -1,0 +1,80 @@
+<!--
+Name: Umesh Jain
+Homework assignment - Homework 1 and 2
+-->
+
+<html>
+    <head>
+            <title> Anazone </title>
+            <h1 style="color: blue" >Anazone - Shopping zone to find anything you need !</h1>
+
+            <link rel="stylesheet" type="text/css" href="../CSS/site.css">
+
+    </head>
+    <body>        
+        <!-- 
+        <div>
+                <button onclick="createProductList()">Populate Products</button>
+        </div>
+        -->
+<br />
+
+        <div>
+        <div class="def_border float_left">
+            <div class="sub_header" >
+                Select your product 
+            </div>
+            <div  class="pos_left"   >               
+
+                    <select id="products" size=3 >
+                    </select>
+
+                    <button onclick="addToCart()">Add To Shopping Cart</button>
+            </div>
+
+     
+            <div class="pos_right" >
+                    
+                    <select   id="shoppingCart" size=3>
+                    </select>
+                        <button onclick="removeFromCart()">Remove from the Shopping Cart</button>
+            </div>
+      </div>
+        
+        <div  class="def_border float_right"  >   
+                <div class="sub_header" >
+                        Payment and Shipping Information 
+                    </div>
+                <table> 
+                    <tr>
+                    <td>
+                            Full Name :  
+                            <input type="text" id="name" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            Address 1 :                 
+                            <input type="text" id="address1" >
+                    </td>                    
+                </tr>
+                <tr>
+                    <td>
+                            Address 2 : 
+                            <input type="text" id="address2" >
+                    </td>                                        
+                </tr>                                        
+                </table>
+
+                <button onclick="placeOrder()">Place Order</button>
+            
+        </div>
+
+        <div class="def_border pos_bottom"  >
+              <div id="ordersummary" >  </div>
+        </div>
+    </div> 
+    <script src="../JS/support.js"  > </script>      
+
+    </body>
+</html>

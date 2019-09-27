@@ -1,0 +1,66 @@
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+div.sub_header {
+  font-family: verdana;
+  font-size: 16px;
+  font-weight:bold;   
+}
+
+div.def_border {
+background-color: lightgrey;
+width: 550px;
+height: 100px ;
+border: 15px solid green;
+padding: 50px;
+margin: 20px;
+}
+
+div.pos_left {
+position: relative;
+left: -30px;
+top:30px;
+}
+
+div.pos_right {
+position: relative;
+left: 250px;
+top:-20px;
+}  
+
+div.pos_bottom {
+position: fixed;                
+top: 400px;
+left: 300px;
+}  
+
+div.float_right {
+   float:right;                        
+}      
+div.float_left {
+   float:left;                        
+} 
+
+div.pos_top {
+position: relative;
+left: -30px;
+top:30px;
+}
+
+button{
+   background-color:cadetblue;
+   color:white;
+   
+}
